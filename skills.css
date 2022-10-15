@@ -1,0 +1,99 @@
+#skills {
+    background-color: #292a2e;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 50px 50px 100px 50px;
+}
+
+.skillset {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 45%;
+}
+
+.skills-text {
+    color: white;
+    text-align: center;
+}
+
+table,
+tr,
+td {
+    border: 2px solid #0dcd9d;
+    padding: 25px;
+    border-spacing: 50px;
+    background-color: #18191d;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+td {
+    width: 50%;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    margin: 25px;
+    height: 25%;
+}
+
+tr {
+    height: 150px;
+}
+
+.skillset h4 {
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.icon-ps {
+    width: 140px;
+    height: 70px;
+    text-align: center;
+}
+
+.icon-id {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+
+.icon-dn {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.icon-html {
+    width: 60px;
+    height: 40px;
+    text-align: center;
+}
+
+.icon-css {
+    width: 42px;
+    height: 40px;
+    text-align: center;
+}
+
+.icon-js {
+    width: 92px;
+    height: 48px;
+    padding-top: 10px;
+    text-align: center;
+}

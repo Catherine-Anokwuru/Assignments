@@ -1,0 +1,40 @@
+#contact-me {
+    background-color: #292a2e;
+    height: 40vh;
+    width: 100%;
+}
+.contact {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+
+.contact-text{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.details{
+        color: white;
+        line-height: 30px;
+        font-size: 15px;
+}
+.contact h3{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.contact h4{
+    font-size: 30px;
+}
+.contact h4 a{
+    color: #0dcd9d;
+}
+.contact h4 a:hover{
+    cursor: pointer;
+    color: black;
+    transition: .2s;
+}

@@ -1,0 +1,43 @@
+#projects {
+    background-color: #18191d;
+    height: 60vh;
+    width: 100%;
+    display: block;
+    padding: 50px;
+}
+.jects {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 35px;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: inline-block;
+
+}
+.pro{
+    display: inline-block ;
+    
+    /*height: 500px;
+    /*margin: 80px 20px;
+    border: 2px solid #292a2e;
+    background-color:#292a2e;
+    color: white;*/
+}
+
+.pr{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    padding: 45px 20px;
+}
+.pr-text{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.jects .p{
+    border-bottom: 1px #0dcd9d solid;
+    padding-bottom: 15px;
+}

@@ -1,0 +1,49 @@
+#serve {
+    background-color: #18191d;
+    height: 80vh;
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 50px;
+}
+
+.services {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+.service-text{
+    color: white;
+    text-align: center;
+    
+}
+.services .s{
+    border-bottom: 1px #0dcd9d solid;
+    padding-bottom: 15px;
+}
+
+.offer{
+    display: inline-block ;
+    width: 21%;
+    height: 250px;
+    padding: 45px 20px;
+    margin: 80px 20px;
+    border: 2px solid #292a2e;
+    background-color:#292a2e;
+    color: white;
+}
+
+.offer h5{
+   margin-top: 50px;
+   font-size: 20px;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}

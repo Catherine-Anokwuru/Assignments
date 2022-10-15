@@ -1,0 +1,76 @@
+#abt-me {
+    width: 100%;
+    background-color: #292a2e;
+    height: 80vh;
+    display: block;
+    position: relative;
+}
+
+.about-me {
+    display: block;
+    padding-top: 30px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.about {
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    right: 400px;
+}
+
+h3 {
+    color: #0dcd9d;
+    text-align: center;
+}
+
+.about-text {
+    color: white;
+    line-height: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.more {
+    color: #0dcd9d;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.priorities{
+    width: 40%;
+    text-align: left;
+    position: absolute;
+    left: 120px;
+    bottom: 100px;
+    padding-right: 180px;
+    border-right: 2px #0dcd9d solid;
+}
+.priorities p{
+    color: white;
+    line-height: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+.hobbies{
+    width: 40%;
+    text-align: right;
+    position: absolute;
+    right: 120px;
+    bottom: 100px;
+    padding-left: 120px;
+}
+.hobbies p{
+    color: white;
+    line-height: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+/*h5 {
+    width: 50px;
+    height: 100px;
+    background-color:;
+        color: black;
+}*/
