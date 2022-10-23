@@ -1,15 +1,13 @@
 #contact-me {
     background-color: #292a2e;
-    height: 40vh;
     width: 100%;
+  padding:50px;
 }
 .contact {
     width: 100%;
     align-items: center;
     justify-content: center;
-    padding-top: 45px;
-    padding-left: 8%;
-    padding-right: 8%;
+   
 
 }
 

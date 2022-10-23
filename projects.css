@@ -1,43 +1,42 @@
 #projects {
     background-color: #18191d;
-    height: 60vh;
-    width: 100%;
+   width: 100%;
     display: block;
-    padding: 50px;
+    padding:50px;
 }
 .jects {
-    width: 100%;
+   
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
-    padding-bottom: 35px;
-    padding-left: 8%;
-    padding-right: 8%;
-    display: inline-block;
-
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    gap: 10px;
+    flex: 1 1 0 ;
+  
+ 
 }
 .pro{
-    display: inline-block ;
-    
-    /*height: 500px;
-    /*margin: 80px 20px;
-    border: 2px solid #292a2e;
-    background-color:#292a2e;
-    color: white;*/
+display: flex;
+    flex-direction: column;
+    align-items: center;
+  flex: 1 1 0;
 }
 
 .pr{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     text-align: center;
-    padding: 45px 20px;
+  object-fit:contain;
+    
 }
 .pr-text{
     color: white;
     text-align: center;
     padding-top: 20px;
 }
-.jects .p{
+.project-text .p{
     border-bottom: 1px #0dcd9d solid;
     padding-bottom: 15px;
 }

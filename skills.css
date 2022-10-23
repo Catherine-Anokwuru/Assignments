@@ -1,25 +1,26 @@
 #skills {
-    background-color: #292a2e;
-    height: 100vh;
+   background-color: #292a2e;
     width: 100%;
     display: block;
-    position: relative;
-    padding: 50px 50px 100px 50px;
+    padding: 50px;
+ 
 }
 
 .skillset {
-    width: 100%;
-    align-items: center;
     justify-content: center;
-    padding-top: 5px;
-    padding-left: 8%;
-    padding-right: 8%;
-    padding-bottom: 45%;
+  display:block;
+   overflow:auto;
 }
-
+.shead{
+   border-bottom: 1px #0dcd9d solid;
+    padding-bottom: 15px;
+}
 .skills-text {
     color: white;
     text-align: center;
+  padding-bottom: 15px;
+  margin-bottom: 35px;
+  
 }
 
 table,
@@ -29,28 +30,24 @@ td {
     padding: 25px;
     border-spacing: 50px;
     background-color: #18191d;
-    align-items: center;
     justify-content: center;
     text-align: center;
 }
-
-td {
-    width: 50%;
-}
-
 table {
-    table-layout: fixed;
-    width: 100%;
-    margin: 25px;
-    height: 25%;
+   width:100%;
+    
 }
 
 tr {
     height: 150px;
+
+}
+td{
+  
+ 
 }
 
 .skillset h4 {
-    margin-top: 30px;
     font-size: 20px;
     text-align: center;
     color: white;
@@ -59,6 +56,7 @@ tr {
 .icon {
     width: 40px;
     height: 40px;
+  text-align: center;
 }
 
 .icon-ps {
@@ -76,6 +74,7 @@ tr {
 .icon-dn {
     width: 50px;
     height: 50px;
+
     text-align: center;
 }
 

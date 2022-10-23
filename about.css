@@ -1,30 +1,37 @@
 #abt-me {
     width: 100%;
     background-color: #292a2e;
-    height: 80vh;
-    display: block;
-    position: relative;
+    display: grid;
+  padding: 50px 50px 0px 50px;
+  
 }
 
 .about-me {
-    display: block;
-    padding-top: 30px;
-    padding-left: 8%;
-    padding-right: 8%;
+    display: grid;
+  grid-template-areas: "about about" 
+                       "priorities hobbies";
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 60px;
+  grid-column-gap: 50px
 }
 
 .about {
-    width: 50%;
     text-align: center;
-    position: absolute;
-    right: 400px;
+  grid-area: about;
+
 }
 
 h3 {
     color: #0dcd9d;
     text-align: center;
+
 }
 
+.ahead{
+  border-bottom: 1px #0dcd9d solid;
+  padding-bottom: 15px;
+}
 .about-text {
     color: white;
     line-height: 30px;
@@ -40,13 +47,9 @@ h3 {
 }
 
 .priorities{
-    width: 40%;
-    text-align: left;
-    position: absolute;
-    left: 120px;
-    bottom: 100px;
-    padding-right: 180px;
-    border-right: 2px #0dcd9d solid;
+  text-align: center;
+  grid-area: priorities;
+
 }
 .priorities p{
     color: white;
@@ -55,12 +58,8 @@ h3 {
     text-align: center;
 }
 .hobbies{
-    width: 40%;
-    text-align: right;
-    position: absolute;
-    right: 120px;
-    bottom: 100px;
-    padding-left: 120px;
+    text-align: center;
+  grid-area: hobbies;
 }
 .hobbies p{
     color: white;
@@ -68,9 +67,3 @@ h3 {
     font-size: 15px;
     text-align: center;
 }
-/*h5 {
-    width: 50px;
-    height: 100px;
-    background-color:;
-        color: black;
-}*/
